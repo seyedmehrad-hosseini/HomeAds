@@ -1,0 +1,25 @@
+@import "reset";
+@font-face {
+    font-family: 'iranyekan';
+    src: local('iranyekan'),  url(../WebFonts/fonts/woff/IRANYekanWebMedium.woff);
+
+    // src: url(../WebFonts/fonts/eot/IRANYekanWebLight.eot);
+}
+body{
+    direction: rtl;
+    font-family: 'iranyekan';
+}
+.leaflet-container {
+    width: 100%;
+    height: 100vh;
+  }
+
+  *{
+    font-family: 'iranyekan' !important;
+
+  }
+  a{
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.541);
+
+  }
